@@ -1,6 +1,17 @@
 [theme]
+# Using a light base for a clean and professional look
 base="light"
+# A primary color that is vibrant yet not too overwhelming
 primaryColor="#356dff"
+# Optional: you can also define backgroundColor, secondaryBackgroundColor, textColor, and font
 
-[ui]
-hideSidebarNav=true
+[client]
+# Hiding the sidebar navigation for a more streamlined look
+showSidebarNavigation = false
+# Optional: Adjust toolbarMode and other settings to suit your app's needs
+
+[server]
+# Ensure your server settings are optimal for your deployment environment
+# You can adjust port, headless, and other settings here
+
+# Other sections like [browser], [mapbox], and [runner] can be adjusted based on your specific needs
