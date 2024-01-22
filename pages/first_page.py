@@ -89,10 +89,9 @@ def main():
             solution_text = analyze_om_issue(base64_image, om_issue_description)
             st.write(solution_text)
             st.success("Analysis generated!")
-            if st.button("Convert Text to Audio"):
-                    audio_base64 = text_to_speech(solution_text)
-                    st.audio(audio_base64, format="audio/mp3")
-                    st.success("Audio generated!")
+            audio_base64 = text_to_speech(solution_text)
+            st.audio(audio_base64, format="audio/mp3")
+            st.success("Audio generated!")       
             
             
       
